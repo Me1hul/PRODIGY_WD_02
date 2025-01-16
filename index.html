@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="time-container">
+        <div class="time-unit">
+            <div class="time-box" id="hours">00</div>
+            <div class="time-label">Hours</div>
+        </div>
+        <div class="separator">:</div>
+        <div class="time-unit">
+            <div class="time-box" id="minutes">00</div>
+            <div class="time-label">Minutes</div>
+        </div>
+        <div class="separator">:</div>
+        <div class="time-unit">
+            <div class="time-box" id="seconds">00</div>
+            <div class="time-label">Seconds</div>
+        </div>
+        <div class="separator">:</div>
+        <div class="time-unit">
+            <div class="time-box" id="milliseconds">00</div>
+            <div class="time-label">Count</div>
+        </div>
+    </div>
+    <div class="controls">
+        <button class="control-btn start-btn" id="startBtn">Start</button>
+        <button class="control-btn stop-btn" id="stopBtn">Stop</button>
+        <button class="control-btn lap-btn" id="lapBtn">Lap</button>
+        <button class="control-btn reset-btn" id="resetBtn">Reset</button>
+    </div>
+    <div class="laps-container" id="lapsContainer"></div>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
